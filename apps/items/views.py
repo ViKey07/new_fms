@@ -1,6 +1,6 @@
 from rest_framework import generics
 from .serializers import ItemSerializer
-from django.http import JsonResponse
+# from django.http import JsonResponse
 from .models import Item
 
 

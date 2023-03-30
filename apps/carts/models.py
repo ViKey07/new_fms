@@ -3,8 +3,10 @@ from apps.users.models import User
 from apps.items.models import Item
 
 class Cart(models.Model):
+
+
     class Meta:
-        db_table = 'cart'
+        db_table = 'carts'
 
     user = models.ForeignKey(
         User, on_delete=models.CASCADE, db_index=True
